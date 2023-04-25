@@ -8,10 +8,12 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.main-div {
-  margin: 0 auto;
-  margin-top: 35px;
+.main {
   width: 25%;
 }
 .first-div {
@@ -29,6 +31,7 @@ img {
 p {
   text-align: center;
   margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
   font-size: 15.5px;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
