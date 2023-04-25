@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Vollkorn&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  max-width: 1440px;
+}
+.main-div {
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 25%;
+}
+.first-div {
+  padding: 0.9rem;
+
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+img {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+.heading {
+  padding: 16px 20px;
+}
+
+p {
+  text-align: center;
+  margin-top: 0.9rem;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+h2 {
+  text-align: center;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
